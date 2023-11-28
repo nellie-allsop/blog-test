@@ -31,6 +31,7 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
 
 				<button type="submit">Send comment</button>
 			</form>
+            <ul>
 			{/* @ts-ignore */}
 			{comments.map((comment) => {
 				return (
@@ -41,6 +42,7 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
 					</li>
 				);
 			})}
+            </ul>
 		</div>
 	);
 }
