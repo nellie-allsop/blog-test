@@ -12,7 +12,7 @@ export async function POST(request: NextRequest, {params} : {params: {slug: stri
   const slug = params.slug
   const formData = await request.formData()
   const username = formData.get('username') as string
-  const comment = formData.get('coment') as string
+  const comment = formData.get('comment') as string
 
   await saveComment(username, comment, slug)
 
