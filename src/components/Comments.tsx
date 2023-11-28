@@ -1,20 +1,46 @@
-export default async function Comments({postSlug}: {postSlug: string}) {
-  // `/blog/post-1`
+export default async function Comments({ postSlug }: { postSlug: string }) {
+	// `/blog/post-1`
 
-  return (
-      <div>
-          <h2>| Comments |</h2>
-          <h3>Leave a comment: </h3>
+	const WEBSITE_URL = "http://localhost:3000";
 
-          <form action={`/api/comments/${postSlug}`} method='POST'>
-              <label htmlFor="username">Name:</label>
-              <input type='text' name='username'/>
+	let comments = [];
 
-              <label htmlFor="comment">Your comment:</label>
-              <textarea name='comment' cols={30} rows={10}/>
+	try {
+		const commentsResult = await fetch(
+			`${WEBSITE_URL}/api/comments/${postSlug}`,
+			{ next: { revalidate: 5 } }
+		);
+		const response = await commentsResult.json();
+		console.log(response);
+		comments = response.comments.rows;
+	} catch (err) {
+		console.log(err);
+	}
 
-              <button type='submit'>send comment</button>
-          </form>
-      </div>
-  )
+	return (
+		<div>
+			<h2>| Comments |</h2>
+			<h3>Leave a comment: </h3>
+
+			<form action={`/api/comments/${postSlug}`} method="POST">
+				<label htmlFor="username">Name:</label>
+				<input type="text" name="username" />
+
+				<label htmlFor="comment">Your comment:</label>
+				<textarea name="comment" cols={30} rows={10} />
+
+				<button type="submit">Send comment</button>
+			</form>
+			{/* @ts-ignore */}
+			{comments.map((comment) => {
+				return (
+					<li key={comment.id}>
+						{comment.username} says...
+						<br />
+						{comment.content}
+					</li>
+				);
+			})}
+		</div>
+	);
 }
