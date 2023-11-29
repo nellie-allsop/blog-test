@@ -10,6 +10,7 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
 			`${WEB_SITE}/api/comments/${postSlug}`,
 			{ next: { revalidate: 5 } }
 		);
+		console.log(WEB_SITE)
 		const response = await commentsResult.json();
 		console.log(response);
 		comments = response.comments.rows;
