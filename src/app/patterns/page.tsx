@@ -18,11 +18,11 @@ export default function Levels() {
 							Choose your pattern by proficiency level
 						</Link>
 			{/* <Levels /> */}
-			{posts.map(post => {return (
+			{/* {posts.map(post => {return (
 				<p key={post.id}><Link href={`/patterns/${post.slug}`}>{post.title}</Link>
 			</p>
 			)
-			})}
+			})} */}
 		</>
 	);
 }
