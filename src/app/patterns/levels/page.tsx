@@ -1,6 +1,6 @@
 // import Link from "next/link";
 // import { getLevel } from "@/lib/posts"
-// import React from "react";
+import React from "react";
 
 // export default function LevelsPage() {
 // 	const levels = getLevel();

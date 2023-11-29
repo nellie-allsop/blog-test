@@ -1,5 +1,5 @@
 // import { getPosts, getPostsBySlug } from "../../../lib/posts"
-// import React from "react"
+import React from "react"
 
 
 // type blogPostParams = {

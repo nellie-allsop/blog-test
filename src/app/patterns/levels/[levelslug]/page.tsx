@@ -1,5 +1,5 @@
 // import { getLevel, getPostsByLevel, postType } from "@/lib/posts";
-// import React from "react";
+import React from "react";
 
 // type blogParams = {
 // 	params: {
