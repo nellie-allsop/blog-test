@@ -141,3 +141,63 @@ Need this on patterns, slug, page.tsx:
 //   )
 
 // }
+
+Need this on level, levelslug, page:
+
+// import { getLevel, getPostsByLevel, postType } from "@/lib/posts";
+// import React from "react";
+
+// type blogParams = {
+// 	params: {
+// 		levelslug: string;
+// 	};
+// };
+
+// export function generateStaticParams() {
+// 	const posts = getLevel();
+// 	return posts.map((post) => {
+// 		return { level: post.levelslug };
+// 	});
+// }
+
+// export default function PatternPage({ params }: blogParams) {
+// 	const posts: postType[] = getPostsByLevel(params.levelslug);
+
+// 	return (
+// 		<>
+// 			{posts.map((post) => {
+// 				return (
+// 					<div key={post.id}>
+// 						<h1>{post.title}</h1>
+// 						<p>{post.intro}</p>
+// 						<p>{post.pattern}</p>
+// 					</div>
+// 				);
+// 			})}
+// 		</>
+// 	);
+// }
+
+Need this in levels, page:
+
+// import Link from "next/link";
+// import { getLevel } from "@/lib/posts"
+// import React from "react";
+
+// export default function LevelsPage() {
+// 	const levels = getLevel();
+// 	return (
+// 		<>
+// 			<h1>Select a pattern by level</h1>
+// 			{levels.map((level) => {
+// 				return (
+// 					<div key={level.name}>
+// 						<Link href={`/patterns/levels/${level.levelslug}`}>
+// 							{level.name}
+// 						</Link>
+// 					</div>
+// 				);
+// 			})}
+// 		</>
+// 	);
+// }
