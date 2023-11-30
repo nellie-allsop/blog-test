@@ -1,6 +1,7 @@
 import Comments from "../../../components/Comments"
 import { getPosts, getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
+import React from "react";
 
 type BlogPostParams = {
 	params: {

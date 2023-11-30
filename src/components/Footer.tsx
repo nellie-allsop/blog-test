@@ -1,11 +1,20 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function Footer() {
 	return (
-		<footer className="flex justify-around">
-			<p>Created by Nellie</p>
-			<Link href="https://github.com/nellie-allsop">Check out my Github</Link>
+		<div>
+		<footer className="flex justify-around p-4">
+			<Link href="https://github.com/nellie-allsop">
+				<Image
+					src="/github-mark.png"
+					width={36}
+					height={36}
+					alt="github logo"
+				/>
+			</Link>
 		</footer>
+		</div>
 	);
 }

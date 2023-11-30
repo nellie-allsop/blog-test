@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function About () {
   return(
-    <>
-    <p>About the site</p>
-    </>
+    <div className="p-8 flex flex-col items-center justify-center">
+    <h1 className="font-bold text-4xl text-purple-500">About the site</h1>
+    </div>
   )
 }
