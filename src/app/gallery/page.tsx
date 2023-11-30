@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 type projectsSearchQuery = {
-	sortBy: number;
+	sortBy: string;
 };
 
 type projectsType = {
