@@ -21,22 +21,22 @@ type projectsType = {
 
 let projects: projectsType[] = [
 	{
-		name: "Plant",
+		name: "Carnivorous plant",
 		year: 2022,
 		id: 0,
 		image: "/audrey.jpg"
 	},
 	{
-		name: "Blanket",
+		name: "Baby blanket",
 		year: 2022,
 		id: 1,
 		image: "/blanket.png"
 	},
 	{
-		name: "Bonnet",
+		name: "Guinea pig bonnet",
 		year: 2020,
 		id: 2,
-		image: "/audrey.jpg"
+		image: "/bonnet.jpg"
 	},
 ];
 
@@ -100,8 +100,8 @@ export default function Gallery({
 						<p>Year created: {projects.year}</p>
 						<Image
 					src={`${projects.image}`}
-					width={64}
-					height={64}
+					width={640}
+					height={640}
 					alt="crochog logo"
 				/>
 					</div>

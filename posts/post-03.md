@@ -3,9 +3,11 @@ title: Advanced Crochet Lace Shawl Pattern
 date: 2023-11-28
 ---
 
+![shawl](../shawl.jpg)
+
 Embark on a crochet adventure that will challenge and delight your skills with this advanced-level pattern. In this blog post, we're diving into the intricate world of lace crochet to create a stunning shawl that showcases the beauty of delicate stitches and intricate patterns. Get ready to elevate your crochet game to a whole new level!
 
-Materials:
+**Materials:**
 
 1. Lace weight yarn (choose a color that complements the delicacy of the pattern)
 2. Crochet hook size C/2 (2.75 mm)
@@ -13,7 +15,7 @@ Materials:
 4. Stitch markers
 5. Blocking tools (pins and a blocking board)
 
-Abbreviations:
+**Abbreviations:**
 
 - ch: chain
 - sc: single crochet

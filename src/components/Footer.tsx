@@ -4,8 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
 	return (
-		<div>
-		<footer className="flex justify-around p-4">
+		<footer className="flex justify-around p-4 bg-pink-500 fixed inset-x-0 bottom-0">
 			<Link href="https://github.com/nellie-allsop">
 				<Image
 					src="/github-mark.png"
@@ -15,6 +14,5 @@ export default function Footer() {
 				/>
 			</Link>
 		</footer>
-		</div>
 	);
 }

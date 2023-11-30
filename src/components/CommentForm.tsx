@@ -20,11 +20,11 @@ revalidatePath(`/blog/${postSlug}`)
   }
 
 	return (
-		<form action={handleFormSubmit}>
+		<form className="bg-blue-500" action={handleFormSubmit}>
 			<label htmlFor="username">Name</label>
-			<input type="text" name="username" />
+			<input className="focus:border-orange-500 focus:bg-blue-500" type="text" name="username" />
 			<label htmlFor="comment">Comment</label>
-			<textarea name="comment" cols={30} rows={10} />
+			<textarea className="shadow" name="comment" cols={30} rows={2} />
       <FormStatusButton />
 		</form>
 	);

@@ -3,16 +3,18 @@ title: Intermediate Crochet Blanket Pattern
 date: 2020-03-14
 ---
 
+![blanket](../blanket.jpg)
+
 If you've mastered the basics of crochet and are ready to take your skills to the next level, you're in for a treat! In this blog post, we'll guide you through an intermediate-level crochet pattern to create a timeless and elegant blanket. Get ready to impress yourself with your growing crochet expertise!
 
-Materials:
+**Materials:**
 
 1. Worsted weight yarn (choose two contrasting colors for a stunning effect)
 2. Crochet hook size I/9 (5.5 mm)
 3. Yarn needle
 4. Scissors
 
-Abbreviations:
+**Abbreviations:**
 
 - ch: chain
 - sc: single crochet

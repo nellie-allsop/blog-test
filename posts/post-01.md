@@ -3,16 +3,18 @@ title: Crochet Your Own Infinity Scarf
 date: 2022-10-28
 ---
 
+![scarf](../scarf.jpg)
+
 Welcome to the wonderful world of crochet! If you're a beginner looking for a simple yet stylish project, you're in the right place. In this blog post, we'll guide you through the process of creating your very own cozy infinity scarf. This beginner-friendly pattern is perfect for those just starting their crochet journey.
 
-Materials:
+**Materials:**
 
 1. Worsted weight yarn (choose your favorite color!)
 2. Crochet hook size H/8 (5.0 mm)
 3. Yarn needle
 4. Scissors
 
-Abbreviations:
+**Abbreviations:**
 
 - ch: chain
 - sc: single crochet
