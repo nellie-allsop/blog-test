@@ -21,19 +21,19 @@ type projectsType = {
 
 let projects: projectsType[] = [
 	{
-		name: "Carnivorous plant",
+		name: "Plant",
 		year: 2022,
 		id: 0,
 		image: "/audrey.jpg"
 	},
 	{
-		name: "Baby blanket",
+		name: "Blanket",
 		year: 2022,
 		id: 1,
 		image: "/blanket.png"
 	},
 	{
-		name: "Guinea pig bonnet",
+		name: "Bonnet",
 		year: 2020,
 		id: 2,
 		image: "/bonnet.jpg"

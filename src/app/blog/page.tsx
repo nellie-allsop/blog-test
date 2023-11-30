@@ -12,9 +12,9 @@ export default function Page() {
   const posts = getPosts()
 
   return (
-    <div className="p-8 flex flex-col items-center justify-center text-center">
+    <div className="p-8 flex flex-col text-center min-h-screen">
       <h1 className="font-bold text-4xl text-purple-500">Patterns</h1>
-      <p>Find some fun patterns below</p>
+      <p className="p-4">Find some fun patterns below</p>
       <ul>
         {posts.map((post) => {
           return (

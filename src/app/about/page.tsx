@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
 	title: "About",
-	description: "Find out about why I made this site",
+	description: "Find out about the dev behind the site",
 };
 
 export default function About() {
 	return (
-		<div className="p-8 flex flex-col items-center justify-center">
+		<div className="p-8 flex flex-col items-center min-h-screen">
 			<h1 className="font-bold text-4xl text-purple-500">About the site</h1>
 			<p className="p-8">
 				This site was created by Nellie Allsop, an aspiring dev who currently

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${work.className}min-h-screen`}>
+			<body className={`${work.className}`}>
 				<Header />
 				{children}
 				<Footer />

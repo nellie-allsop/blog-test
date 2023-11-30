@@ -35,7 +35,9 @@ export default function BlogPost({ params }: BlogPostParams) {
 				className="prose dark:prose-invert"
 			></div>
 			{/* @ts-ignore */}
+			<div className="h-500">
 			<Comments postSlug={params.slug} />
+			</div>
 		</div>
 	);
 }
